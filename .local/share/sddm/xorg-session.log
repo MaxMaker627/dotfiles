@@ -1,0 +1,26 @@
+[ 12/08/22 18:19:43.545 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
+
+** (xfce4-power-manager:789): WARNING **: 18:19:47.820: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:789): WARNING **: 18:19:47.820: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+(xfce4-power-manager:789): xfce4-power-manager-WARNING **: 18:19:47.861: Unable to connect to session manager : No se pudo conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+
+(xfce4-power-manager:789): libnotify-WARNING **: 18:19:48.317: Failed to connect to proxy
+
+(xfce4-power-manager:789): GLib-GObject-WARNING **: 18:19:48.849: ../glib/gobject/gsignal.c:2613: signal 'Changed' is invalid for instance '0x558c57db90e0' of type 'GDBusProxy'
+
+(xfce4-power-manager:789): xfce4-power-manager-WARNING **: 18:19:51.369: could not map keysym 1008ffa8 to keycode
+
+
+** (xfce4-power-manager:789): WARNING **: 18:19:51.384: No outputs have backlight property
+
+(xfce4-power-manager:789): xfce4-power-manager-WARNING **: 18:19:51.579: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: El objeto no existe en la ruta «/org/freedesktop/UPower/KbdBacklight»
+
+** (xfce4-clipman:790): WARNING **: 18:19:53.947: Unable to register GApplication: Ya existe un objeto exportado para la interfaz org.gtk.Application en /org/xfce/clipman
+
+(xfce4-clipman:790): GLib-GIO-CRITICAL **: 18:19:53.947: g_application_get_is_remote: assertion 'application->priv->is_registered' failed
+
+(xfce4-clipman:790): GLib-WARNING **: 18:19:53.947: g_set_application_name() called multiple times
