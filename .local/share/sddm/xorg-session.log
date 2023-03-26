@@ -1,0 +1,27 @@
+[ 26/03/23 16:51:26.717 parse_config_libconfig WARN ] The refresh-rate option has been deprecated. Please remove it from your configuration file. If you encounter any problems without this feature, please feel free to open a bug report
+[ 26/03/23 16:51:26.717 parse_blur_method WARN ] Blur method 'kawase' has been renamed to 'dual_kawase'. Interpreted as 'dual_kawase', but this will stop working soon.
+
+(nitrogen:14592): GLib-GObject-CRITICAL **: 16:51:26.846: Attempting to freeze the notification queue for object GtkSettings[0x55ae003b8b80]; Property notification does not work during instance finalization.
+
+(nitrogen:14592): GLib-GObject-CRITICAL **: 16:51:26.846: Attempting to thaw the notification queue for object GtkSettings[0x55ae003b8b80]; Property notification does not work during instance finalization.
+
+(nitrogen:14592): GLib-GObject-CRITICAL **: 16:51:26.879: Attempting to freeze the notification queue for object GtkSettings[0x55ae003c2110]; Property notification does not work during instance finalization.
+
+(nitrogen:14592): GLib-GObject-CRITICAL **: 16:51:26.879: Attempting to thaw the notification queue for object GtkSettings[0x55ae003c2110]; Property notification does not work during instance finalization.
+xfce4-notifyd-Message: 16:51:27.115: Your sqlite library does not support OFFSET/LIMIT with DELETE; falling back to less-efficient deletion method
+
+(xfce4-power-manager:14605): xfce4-power-manager-WARNING **: 16:51:27.115: Unable to connect to session manager : No ha podido conectar con el gestor de sesiones: SESSION_MANAGER environment variable not defined
+
+(xfce4-power-manager:14605): xfce4-power-manager-WARNING **: 16:51:27.157: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:14605): xfce4-power-manager-WARNING **: 16:51:27.165: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: El objeto no existe en la ruta «/org/freedesktop/UPower/KbdBacklight»
+
+** (volumeicon:14602): WARNING **: 16:51:27.856: Binding 'AudioRaiseVolume' failed!
+Failed to bind AudioRaiseVolume
+
+** (volumeicon:14602): WARNING **: 16:51:27.856: Binding 'AudioLowerVolume' failed!
+Failed to bind AudioLowerVolume
+
+** (volumeicon:14602): WARNING **: 16:51:27.856: Binding 'AudioMute' failed!
+Failed to bind AudioMute

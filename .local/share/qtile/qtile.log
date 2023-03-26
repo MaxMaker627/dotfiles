@@ -1,0 +1,39 @@
+2023-03-26 16:24:37,022 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2023-03-26 16:24:37,040 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2023-03-26 16:30:21,039 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `redshift`
+2023-03-26 16:30:23,082 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2023-03-26 16:30:23,737 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2023-03-26 16:30:23,749 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2023-03-26 16:30:34,711 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2023-03-26 16:30:35,371 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2023-03-26 16:30:35,386 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2023-03-26 16:30:45,739 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2023-03-26 16:30:46,405 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2023-03-26 16:30:46,419 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2023-03-26 16:30:52,791 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2023-03-26 16:30:53,475 ERROR libqtile net.py:poll():L167 Net widget errored while polling:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/net.py", line 140, in poll
+    down = new_stats[intf]["down"] - self.stats[intf]["down"]
+KeyError: 'wlo1'
+2023-03-26 16:30:53,487 WARNING libqtile base.py:on_done():L804 poll() returned None, not rescheduling
+2023-03-26 16:34:44,713 WARNING libqtile lifecycle.py:_atexit():L33 Restarting Qtile with os.execv(...)
+2023-03-26 16:42:47,825 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2023-03-26 16:51:18,434 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2023-03-26 17:01:59,305 ERROR libqtile manager.py:process_key_event():L407 KB command error right: No such command
